@@ -61,7 +61,7 @@ For students at Milano-Bicocca, recordings are available at [elearning.unimib.it
 
 ## Logistics:
 
-### 📅 Schedule
+### Schedule
 
 <!-- CALENDAR:START -->
 - **2025, Nov 17, 10:30am - 12:30pm**. Room U2-04
