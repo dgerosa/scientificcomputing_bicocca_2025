@@ -53,10 +53,10 @@ if events:
         start_str = start_str.replace("AM", "am").replace("PM", "pm")
         end_str = end_str.replace("AM", "am").replace("PM", "pm")
 
-        time_range = f"{start_str} - {end_str}" if end_str else start_str
+        time_range = f"**{start_str} - {end_str}**" if end_str else f"**{start_str}**"
 
         if e.location:
-            md_lines.append(f"- {time_range} — {e.location}")
+            md_lines.append(f"- {time_range}. {e.location}")
         else:
             md_lines.append(f"- {time_range}")
         md_output = "\n".join(md_lines)
