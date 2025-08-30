@@ -35,11 +35,21 @@ events.sort(key=lambda e: e.begin)
 
 # Format as Markdown
 if events:
-    md_lines = [
-        f"- {e.begin.format('YYYY-MM-DD')} — {e.location}"
-        if e.location else f"- {e.begin.format('YYYY-MM-DD')}"
-        for e in events
-    ]
+    md_lines = []
+
+    for e in events:
+        if e.location:
+            # Format: 2025, Sep 12, 10:30am - 12:30pm — Location
+            start_str = e.begin.format('YYYY, MMM DD, hh:mma').lower()
+            end_str = e.end.format('hh:mma').lower() if e.end else ''
+            time_range = f"{start_str} - {end_str}" if end_str else start_str
+            md_lines.append(f"- {time_range} — {e.location}")
+        else:
+            # Only date/time
+            start_str = e.begin.format('YYYY, MMM DD, hh:mma').lower()
+            end_str = e.end.format('hh:mma').lower() if e.end else ''
+            time_range = f"{start_str} - {end_str}" if end_str else start_str
+            md_lines.append(f"- {time_range}")
     md_output = "\n".join(md_lines)
 else:
     md_output = f"_No events between {start_str} and {end_str}._"
