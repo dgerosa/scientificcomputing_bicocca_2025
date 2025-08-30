@@ -40,26 +40,26 @@ events.sort(key=lambda e: e.begin)
 # Format as Markdown
 if events:
 
-md_lines = []
+    md_lines = []
 
-for e in events:
-    start = e.begin.astimezone(ITALY_TZ)
-    end = e.end.astimezone(ITALY_TZ) if e.end else None
+    for e in events:
+        start = e.begin.astimezone(ITALY_TZ)
+        end = e.end.astimezone(ITALY_TZ) if e.end else None
 
-    # Format: 2025, Nov 17, 09:30am - 11:30am
-    start_str = start.strftime("%Y, %b %d, %I:%M%p")
-    end_str = end.strftime("%I:%M%p") if end else ""
-    # Fix AM/PM to lowercase
-    start_str = start_str.replace("AM", "am").replace("PM", "pm")
-    end_str = end_str.replace("AM", "am").replace("PM", "pm")
+        # Format: 2025, Nov 17, 09:30am - 11:30am
+        start_str = start.strftime("%Y, %b %d, %I:%M%p")
+        end_str = end.strftime("%I:%M%p") if end else ""
+        # Fix AM/PM to lowercase
+        start_str = start_str.replace("AM", "am").replace("PM", "pm")
+        end_str = end_str.replace("AM", "am").replace("PM", "pm")
 
-    time_range = f"{start_str} - {end_str}" if end_str else start_str
+        time_range = f"{start_str} - {end_str}" if end_str else start_str
 
-    if e.location:
-        md_lines.append(f"- {time_range} — {e.location}")
-    else:
-        md_lines.append(f"- {time_range}")
-    md_output = "\n".join(md_lines)
+        if e.location:
+            md_lines.append(f"- {time_range} — {e.location}")
+        else:
+            md_lines.append(f"- {time_range}")
+        md_output = "\n".join(md_lines)
 else:
     md_output = f"_No events between {start_str} and {end_str}._"
 
