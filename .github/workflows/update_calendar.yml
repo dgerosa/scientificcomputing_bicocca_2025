@@ -21,7 +21,7 @@ jobs:
           python-version: "3.x"
 
       - name: Install deps
-        run: pip install ics python-dateutil
+        run: pip install ics python-dateutil requests
 
       - name: Update README with calendar
         run: |
