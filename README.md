@@ -64,7 +64,15 @@ For students at Milano-Bicocca, recordings are available at [elearning.unimib.it
 ### 📅 Schedule
 
 <!-- CALENDAR:START -->
-Nothing yet!
+- 2025-11-17
+- 2025-11-19
+- 2025-11-21
+- 2025-11-24
+- 2025-11-26
+- 2025-11-28
+- 2025-12-01
+- 2025-12-03
+- 2025-12-05
 <!-- CALENDAR:END -->
 
 [Here is a Google calendar](https://calendar.google.com/calendar/embed?src=1c512861d9ca4686edd8ffdf6bece495b11a4a764ed045b1f809c9ef0f1903f5%40group.calendar.google.com&ctz=Europe%2FRome) with these dates, which you can import into your own calendar.
