@@ -64,7 +64,7 @@ For students at Milano-Bicocca, recordings are available at [elearning.unimib.it
 ### 📅 Schedule
 
 <!-- CALENDAR:START -->
-- **2025, Nov 17, 10:30am - 12:30pm**
+- **2025, Nov 17, 10:30am - 12:30pm**. Room U2-04
 - **2025, Nov 19, 10:30am - 12:30pm**
 - **2025, Nov 21, 10:30am - 12:30pm**
 - **2025, Nov 24, 10:30am - 12:30pm**
