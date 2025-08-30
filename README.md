@@ -61,19 +61,11 @@ For students at Milano-Bicocca, recordings are available at [elearning.unimib.it
 
 ## Logistics:
 
-### Schedule
+### 📅 Schedule
 
-Here is our schedule:
-
-1. Mon Nov 18, 2024 - 10.30-12.30 - Room U4.07
-2. Wed Nov 20, 2024 - 14.30-16.30 - Room U2.02
-3. Fri Nov 22, 2024 - 10.30-12.30 - Room U4.05
-4. Mon Nov 25, 2024 - 14.30-16.30 - Room U6.26
-5. Wed Nov 27, 2024 - 10.30-12.30 - Room U1.11
-6. Fri Nov 29, 2024 - 10.30-12.30 - Room U6.03
-7. Mon Dec 2, 2024- 10.30-12.30 - Room U4.06
-8. Wed Dec 4, 2024 - 10.30-12.30 - Room U4.06
-9. Fri Dec 6, 2024 - 10.30-12.30 - Room U2.04 (backup slot in case we need to skip one lecture) 
+<!-- CALENDAR:START -->
+Nothing yet!
+<!-- CALENDAR:END -->
 
 [Here is a Google calendar](https://calendar.google.com/calendar/embed?src=1c512861d9ca4686edd8ffdf6bece495b11a4a764ed045b1f809c9ef0f1903f5%40group.calendar.google.com&ctz=Europe%2FRome) with these dates, which you can import into your own calendar.
 
