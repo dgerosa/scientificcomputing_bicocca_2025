@@ -1,0 +1,36 @@
+name: Update Calendar
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # run daily at 06:00 UTC
+  workflow_dispatch:       # still allow manual runs, but no inputs
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+    env:
+      DEFAULT_START: "2025-01-01"
+      DEFAULT_END: "2025-12-31"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install deps
+        run: pip install ics python-dateutil
+
+      - name: Update README with calendar
+        run: |
+          python .github/scripts/update_calendar.py "$DEFAULT_START" "$DEFAULT_END"
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update calendar" || echo "No changes"
+          git push
