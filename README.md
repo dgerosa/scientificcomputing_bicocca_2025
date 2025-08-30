@@ -2,7 +2,7 @@
 # Scientific Computing with Python
 
 [Davide Gerosa](https://davidegerosa.com/)  - davide.gerosa@unimib.it  
-University of Milano-Bicocca, 2024-2025.
+University of Milano-Bicocca, 2025-2026.
 
 ## Aims
 
@@ -97,6 +97,7 @@ In general, I'm always happy to chat coding and science with you. My office is r
 ## Past editions
 
 - Current: [dgerosa.github.io/scientificcomputing_bicocca](https://dgerosa.github.io/scientificcomputing_bicocca)
+- 2024: [github.com/dgerosa/scientificcomputing_bicocca_2024](https://github.com/dgerosa/scientificcomputing_bicocca_2024)
 - 2023: [github.com/dgerosa/scientificcomputing_bicocca_2023](https://github.com/dgerosa/scientificcomputing_bicocca_2023)
 
 ## Credits
