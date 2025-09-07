@@ -100,8 +100,6 @@ In general, I'm always happy to chat coding and science with you. My office is r
 - 2024: [github.com/dgerosa/scientificcomputing_bicocca_2024](https://github.com/dgerosa/scientificcomputing_bicocca_2024)
 - 2023: [github.com/dgerosa/scientificcomputing_bicocca_2023](https://github.com/dgerosa/scientificcomputing_bicocca_2023)
 
-## Credits
-
 This class is built on top of that taught by [Michael Zingale](https://github.com/zingale) at Stony Brook University: [https://sbu-python-class.github.io](https://sbu-python-class.github.io/python-science/Introduction.html) with changes and additions from a number of other sources, many from myself. 
 
 ## Careful... 
