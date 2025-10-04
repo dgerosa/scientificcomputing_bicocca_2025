@@ -42,7 +42,7 @@ if events:
 
     md_lines = []
 
-    for e in events:
+    for i, e in enumerateevents:
         start = e.begin.astimezone(ITALY_TZ)
         end = e.end.astimezone(ITALY_TZ) if e.end else None
 
@@ -56,9 +56,9 @@ if events:
         time_range = f"**{start_str} - {end_str}**" if end_str else f"**{start_str}**"
 
         if e.location:
-            md_lines.append(f"- {time_range}. {e.location}.")
+            md_lines.append(f"{i+1}. {time_range}. {e.location}.")
         else:
-            md_lines.append(f"- {time_range}")
+            md_lines.append(f"{i+1}. {time_range}")
         md_output = "\n".join(md_lines)
 else:
     md_output = f"_No events between {start_str} and {end_str}._"
