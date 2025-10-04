@@ -42,7 +42,7 @@ if events:
 
     md_lines = []
 
-    for i, e in enumerateevents:
+    for i, e in enumerate(events):
         start = e.begin.astimezone(ITALY_TZ)
         end = e.end.astimezone(ITALY_TZ) if e.end else None
 
