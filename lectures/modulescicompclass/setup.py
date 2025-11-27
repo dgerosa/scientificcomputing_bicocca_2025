@@ -6,6 +6,6 @@ setup(name='modulescicompclassclassof2024',
       author='Davide Gerosa',
       author_email='davide.gerosa@unimib.it',
       license='MIT',
-      version='0.0.4',
+      version='0.0.5',
       packages=find_packages(),
       install_requires=['numpy', 'matplotlib'])
